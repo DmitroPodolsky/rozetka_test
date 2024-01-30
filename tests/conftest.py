@@ -3,4 +3,6 @@ from selenium.webdriver import Chrome
 
 @pytest.fixture()
 def driver() -> Chrome:
-    pass
+    driver = Chrome()
+    yield driver
+    driver.quit()

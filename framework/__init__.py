@@ -1,1 +1,1 @@
-from .login_page import LoginPage
+URL = 'https://www.work.ua/'
